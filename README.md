@@ -10,7 +10,7 @@ No experience needed. If you can plug things in and copy-paste code, you can sta
 |---|---------|-------------------|--------|
 | 01 | [Blink LED](01-blink-led/) | Digital output, resistors, `delay()`, loops, arrays | Done |
 | 02 | [LED + Button](02-led-button/) | Digital input, pull-up/pull-down resistors, debouncing, Serial Monitor | Done |
-| 03 | Night Light | Analog input, photoresistors | Coming soon |
+| 03 | [Night Light](03-night-light/) | Analog input, photoresistors, voltage dividers, PWM, calibration | Done |
 | 04 | Temp & Humidity Display | Sensors, libraries, LCD | Coming soon |
 | 05 | Parking Sensor | Ultrasonic sensor, buzzer | Coming soon |
 

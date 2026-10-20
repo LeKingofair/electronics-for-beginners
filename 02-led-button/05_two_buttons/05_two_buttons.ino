@@ -2,7 +2,7 @@
   05 - Two Buttons: ON and OFF
   One button turns the LED on, a second button turns it off.
 
-  Wiring (see images/schematic_3_two_buttons.svg):
+  Wiring (see schematic_3_two_buttons.png in this folder):
     Pin 2 -> ON button  -> GND
     Pin 3 -> OFF button -> GND
     Pin 13 -> 220 ohm resistor -> LED long leg (+), LED short leg (-) -> GND

@@ -3,7 +3,7 @@
   Press once: LED turns ON and STAYS on.
   Press again: LED turns OFF. Like a light switch.
 
-  Wiring: same as sketch 02 (images/schematic_2_button_pullup.svg).
+  Wiring: same as sketch 02 (see ../02_button_pullup/schematic_2_button_pullup.png).
 
   What is "debounce"?
     A real button doesn't switch cleanly. For a few milliseconds it

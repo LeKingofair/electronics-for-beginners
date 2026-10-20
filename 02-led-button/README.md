@@ -51,29 +51,30 @@ If a pin is connected to nothing, it "floats" and picks up electrical noise, so 
 
 ## Schematics
 
-### Schematic 1: pull-down resistor (sketch 01)
+Each schematic sits in the sketch folder where the circuit first changes. Sketches that reuse a circuit don't get their own copy.
 
-![Schematic 1: button with pull-down resistor](images/schematic_1_button_pulldown.svg)
+| Circuit | Schematic is in | Used by sketches |
+|---------|-----------------|------------------|
+| Button with pull-down resistor | [`01_button_hold`](01_button_hold/) | 01 |
+| Button with `INPUT_PULLUP` | [`02_button_pullup`](02_button_pullup/) | 02, 03, 04 |
+| Two buttons + LED | [`05_two_buttons`](05_two_buttons/) | 05 |
+| Button + four LEDs | [`06_button_counter`](06_button_counter/) | 06 |
 
-<!-- Add your Tinkercad screenshot here -->
+### Circuit 1: pull-down resistor (sketch 01)
 
-### Schematic 2: INPUT_PULLUP (sketches 02, 03, 04)
+![Schematic 1: button with pull-down resistor](01_button_hold/schematic_1_button_pulldown.png)
 
-![Schematic 2: button with INPUT_PULLUP](images/schematic_2_button_pullup.svg)
+### Circuit 2: INPUT_PULLUP (sketches 02, 03, 04)
 
-<!-- Add your Tinkercad screenshot here -->
+![Schematic 2: button with INPUT_PULLUP](02_button_pullup/schematic_2_button_pullup.png)
 
-### Schematic 3: two buttons (sketch 05)
+### Circuit 3: two buttons (sketch 05)
 
-![Schematic 3: two buttons and one LED](images/schematic_3_two_buttons.svg)
+![Schematic 3: two buttons and one LED](05_two_buttons/schematic_3_two_buttons.png)
 
-<!-- Add your Tinkercad screenshot here -->
+### Circuit 4: button + four LEDs (sketch 06)
 
-### Schematic 4: button + four LEDs (sketch 06)
-
-![Schematic 4: button and four LEDs](images/schematic_4_button_four_leds.svg)
-
-<!-- Add your Tinkercad screenshot here -->
+![Schematic 4: button and four LEDs](06_button_counter/schematic_4_button_four_leds.png)
 
 ## Pin Summary
 
@@ -100,7 +101,7 @@ Do these in order. Each one builds on the last.
 ## How to Run in Tinkercad
 
 1. Create a new Circuit and add an Arduino Uno, breadboard, LED(s), resistors and push button(s).
-2. Wire it up using the matching schematic above.
+2. Wire it up using the matching schematic from the sketch folder.
 3. Click **Code**, switch to **Text**, and paste in a sketch.
 4. Click **Start Simulation**, then click and hold the button in the simulator.
 5. For sketch 03, open the **Serial Monitor** at the bottom of the code panel to see the messages.

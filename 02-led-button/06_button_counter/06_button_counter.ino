@@ -4,7 +4,7 @@
   binary, from 0 to 15, then it wraps back to 0.
   Combines Project 01 (binary LEDs) with a button.
 
-  Wiring (see images/schematic_4_button_four_leds.svg):
+  Wiring (see schematic_4_button_four_leds.png in this folder):
     Pin 2 -> button -> GND
     Pins 8, 9, 10, 11 -> 220 ohm resistor -> LED (+), LED (-) -> GND
       Pin 8  = the "1s" place (rightmost bit)

@@ -2,7 +2,7 @@
   01 - Button Hold (external pull-down resistor)
   The LED is ON while you hold the button and OFF when you let go.
 
-  Wiring (see images/schematic_1_button_pulldown.svg):
+  Wiring (see schematic_1_button_pulldown.png in this folder):
     5V -> button -> pin 2
     Pin 2 -> 10k ohm resistor -> GND      (the "pull-down" resistor)
     Pin 13 -> 220 ohm resistor -> LED long leg (+), LED short leg (-) -> GND

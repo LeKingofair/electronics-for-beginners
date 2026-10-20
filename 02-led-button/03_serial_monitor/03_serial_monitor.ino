@@ -3,7 +3,7 @@
   Prints a message to your computer whenever the button is pressed
   or released. This is how programmers "see inside" a running program.
 
-  Wiring: same as sketch 02 (images/schematic_2_button_pullup.svg).
+  Wiring: same as sketch 02 (see ../02_button_pullup/schematic_2_button_pullup.png).
 
   To see the messages:
     - Arduino IDE: Tools > Serial Monitor (set the speed to 9600 baud)

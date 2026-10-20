@@ -3,7 +3,7 @@
   Same result as sketch 01, but with one less part: the Arduino has a
   built-in pull-up resistor you can turn on in code.
 
-  Wiring (see images/schematic_2_button_pullup.svg):
+  Wiring (see schematic_2_button_pullup.png in this folder):
     Pin 2 -> button -> GND
     Pin 13 -> 220 ohm resistor -> LED long leg (+), LED short leg (-) -> GND
 

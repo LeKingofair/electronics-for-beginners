@@ -91,7 +91,7 @@ Once you've finished all eight, try these:
 2. Make the 4-LED chase go in the opposite direction.
 3. Make an LED "heartbeat": two quick blinks, then a pause.
 4. Add a fifth LED on pin 12 and update the code to use it.
-5. Make your own pattern and add it to this repo as `09_your_name_here`.
+5. Make your own pattern 
 
 ## Next Project
 
